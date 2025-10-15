@@ -88,7 +88,9 @@ li{
     border: none;
     border-radius: 10px;
 }
+/* permet de changer la couleur du bouton quand on passe la souris dessus */ 
 
 .formulaire button:hover{
     background-color: #555;
 }
+
