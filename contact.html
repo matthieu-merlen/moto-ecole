@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Moto Ecole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <div class="left">
+            <img id="photo" src="moto1.jpg">
+        </div>
+
+        <div class="right">
+            <h1>Réservation</h1>
+            <hr>
+
+            <form class="formulaire">
+                <label>
+                    Prénom et Nom : <input type="text" required>
+                </label>
+
+                <label>
+                    Adresse mail : <input type="email" required>
+                </label>
+
+                <label>
+                    Numéro de téléphone : <input type="number" required>
+                </label>
+
+                <label>
+                    Message : <textarea rows="5" required></textarea>
+                </label>
+                
+
+                <button type="submit" onclick="alert_box()">Réserver</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

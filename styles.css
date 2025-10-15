@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: #fafafa;
+}
+
+h1, h2{
+    color: #333;
+}
+
+ul{
+    list-style-type: square;
+    font-size: 18px;
+}
+
+li{
+    margin: 8px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.right{
+    flex: 1;
+    padding: 40px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulaire label{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333;
+}
+
+.formulaire input{
+    margin-top: 5px;
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.formulaire button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.formulaire button:hover{
+    background-color: #555;
+}
